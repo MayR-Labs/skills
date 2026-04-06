@@ -1,0 +1,83 @@
+{
+  "name": "code-doctrine-skills",
+  "owner": {
+    "name": "Aghogho Meyoron",
+    "email": "youngmayor.dev@gmail.com"
+  },
+  "metadata": {
+    "description": "",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./",
+      "description": "Universal core standards for projects to enforce philosophies, structure, naming, tooling, and global anti-patterns.",
+      "version": "0.1.0",
+      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "license": "MIT",
+      "author": {
+        "name": "YoungMayor",
+        "email": "youngmayor.dev@gmail.com"
+      },
+      "keywords": [
+        "base",
+        "standards",
+        "architecture",
+        "anti-patterns",
+        "clean-code"
+      ],
+      "category": "fundamentals",
+      "skills": [
+        "./collection/core/base"
+      ]
+    },
+    {
+      "name": "concepts",
+      "source": "./",
+      "description": "High-level behavioral concepts and prompting styles for AI agents, including eco-mode for token efficiency.",
+      "version": "0.1.0",
+      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "license": "MIT",
+      "author": {
+        "name": "YoungMayor",
+        "email": "youngmayor.dev@gmail.com"
+      },
+      "keywords": [
+        "concepts",
+        "eco-mode",
+        "efficiency",
+        "prompting",
+        "behavior"
+      ],
+      "category": "concepts",
+      "skills": [
+        "./collection/concepts/eco-mode"
+      ]
+    },
+    {
+      "name": "languages",
+      "source": "./",
+      "description": "Strict, senior-level code standards and architectural conventions for various programming languages (JavaScript, TypeScript, PHP, etc.).",
+      "version": "0.1.0",
+      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "license": "MIT",
+      "author": {
+        "name": "YoungMayor",
+        "email": "youngmayor.dev@gmail.com"
+      },
+      "keywords": [
+        "languages",
+        "javascript",
+        "typescript",
+        "architecture",
+        "standards"
+      ],
+      "category": "languages",
+      "skills": [
+        "./collection/languages/javascript",
+        "./collection/languages/typescript"
+      ]
+    }
+  ]
+}
