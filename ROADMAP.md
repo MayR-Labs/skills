@@ -3,12 +3,13 @@
 This document outlines the structured phases for delivering the comprehensive `@youngmayor/skills` library.
 
 ## Phase 1: Core Setup & Fundamentals (In Progress)
+
 - [x] Initial Repository Architecture
-- [ ] Implement CLI (`npx @youngmayor/skills add <skill>`)
-- [ ] `collection/base` (Naming standards, structure, anti-patterns, rules)
-- [ ] `collection/concepts/eco-mode` (Minimal responses, economic tokens)
+- [x] `collection/base` (Naming standards, structure, anti-patterns, rules)
+- [x] `collection/concepts/eco-mode` (Minimal responses, economic tokens)
 
 ## Phase 2: Languages
+
 - [x] `javascript`
 - [x] `typescript`
 - [ ] `php`
@@ -19,6 +20,7 @@ This document outlines the structured phases for delivering the comprehensive `@
 - [ ] `csharp`
 
 ## Phase 3: Frameworks
+
 - [ ] `react`
 - [ ] `nextjs`
 - [ ] `laravel`
@@ -30,6 +32,7 @@ This document outlines the structured phases for delivering the comprehensive `@
 - [ ] `vue`
 
 ## Phase 4: Recipes
+
 - [ ] `api-design` (RESTful, GraphQL, JSON:API standards)
 - [ ] `authentication` (JWT, OAuth, secure identity, testing flows)
 - [ ] `error-handling` (Global handlers, custom exceptions, UX)
