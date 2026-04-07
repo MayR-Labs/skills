@@ -1,57 +1,55 @@
 ---
-name: mayrlabs-base
-description: Universal core standards for projects. This skill should be used on every project to enforce philosophies, structure, naming, tooling, and global anti-patterns regardless of language.
+name: mayrlabs-core
+description: Universal core standards enforcing senior-level software engineering principles (DRY, KISS, clean code, modular architecture) across all MayR Labs projects.
+license: MIT
+metadata:
+  author: MayR Labs
+  version: "1.0"
 ---
 
-# Base Code Doctrine
+# MayR Labs Core Doctrine
 
-This skill defines the non-negotiable core principles governing all code modifications and creation. These philosophies override language-specific conveniences in favor of long-term maintainability.
+## Purpose
 
-## The Iron Law
+Enforce global, state-of-the-art philosophies for senior, high-efficiency software engineering. This doctrine ensures that all generated code is readable, maintainable, scalable, and secure.
 
-Code is written for **humans first, machines second**. Every architectural and syntactical decision must answer: _"Will this still make sense in 6 months?"_
+## Audience
 
-## Core Principles
+Universal baseline for AI agents working on any MayR Labs project.
 
-1. **Optimise for Readability & Maintainability:** Avoid “clever” or esoteric code. Prefer boring, predictable patterns.
-2. **Clean & Lean Code:** Let the code breathe. Do not cluster unrelated lines of code together. Group related logic, separate unrelated logic with blank lines.
-3. **Separation of Concerns:** Avoid monolithic (God) files. Co-locate related logic where appropriate, but prevent tight coupling.
+## Core Philosophy
 
-## Naming Standards
+- **Humans First, Machines Second**: Optimize for readability over raw machine brevity.
+- **Boring > Clever**: Avoid "clever" one-liners. Prefer predictable, easily parsable patterns.
+- **Clean Code, Lean Code**: Let the code breathe. Do not cluster unrelated lines of code together.
+- **Longevity Test**: Every architectural decision must answer, _"Will this still make sense in 6 months?"_
 
-- **Intention-Revealing:** Use highly descriptive names.
-- **Verbosely Clear:** Functions should read like sentences (e.g., `calculateUserDiscount()` instead of `calcDisc()`).
-- **No Abbreviations:** Unless universally understood (like `id` or `url`), do not abbreviate variables.
+## Architecture & Structure
 
-## Project Structure & Tooling
+- **Modular Architecture**: Codebases must follow a clear separation of concerns.
+- **No God Files**: Absolutely no monolithic files (e.g., 1000+ line controllers doing everything). Break things down.
+- **Co-location**: Keep closely related logic together where appropriate, but strictly avoid tight unmanageable coupling.
+- **DRY & KISS**: Don't Repeat Yourself. Keep It Simple, Stupid.
 
-- **Modular Architecture:** Enforce strict layered architectures (e.g., Controllers → Services → Repositories).
-- **Environment Parity:** Every project using a `.env` MUST include a `.env.example` that lists all variables with short descriptions.
-- **Strict Tooling:** JS/TS projects must always utilize and enforce:
-  - `npm run lint`
-  - `npm run format`
-  - `npm run type-check`
+## Naming Conventions
 
-## UI & Styling Standards (Global)
+- **Intention Revealing**: Use descriptive names that explain _what_ and _why_.
+- **No Abbreviations**: Unless universally understood (e.g., `id`, `url`, `api`), avoid abbreviations.
+- **Sentence-like Functions**: Functions must read intuitively (e.g., `calculateUserDiscount()` is better than `calcDisc()`).
 
-- **Zero Hardcoded Colours:** Banned utility classes like `bg-white`, `text-gray-500`.
-- **Semantic Tokens Only:** Use design-system mapped tokens (`bg-primary`, `text-foreground`, `bg-card`).
-- **Centralised Themes:** A scalable product requires a scalable, centralised design system.
+## Error Handling & Security
 
-## Security Basics
+- **Zero Trust**: Never trust client input. Validate and sanitize everything at the entry point.
+- **No Silent Failures**: Banned. Always catch errors, log them significantly, and return meaningful responses.
+- **Secrets Management**: Secrets must never be dynamically exposed or leaked to frontend clients.
 
-- **Zero Trust:** Never trust client input. Always validate and sanitize at the boundary.
-- **Secret Isolation:** Secrets must never be exposed to the frontend/client. Apps should _verify_ tokens, not generate them locally.
-- **Fail Loud & Log:** Never silently fail or swallow errors. Always log errors and return contextually meaningful responses.
+## Inputs & Outputs
 
-## Global Anti-Patterns [BANNED]
+- **Input**: Implicitly applied on every action.
+- **Output**: Strict adherence in all generated code, architectures, and refactoring efforts.
 
-- **God Files:** Modules/files exceeding ~300+ lines doing multiple unrelated things.
-- **Hardcoded Configurations:** Magic strings and undocumented arbitrary numbers.
-- **Logic in UI:** Business logic embedded directly within UI presentation components.
-- **Silent Error Handling:** `try { ... } catch (e) {}`.
-- **Copy-Paste Programming:** Duplicating logic instead of abstracting.
+## Anti-Patterns (BANNED)
 
-## Quick Default Validation
-
-Before finalizing any generation, ask yourself: _"If something feels messy here, fix it immediately."_
+- Hardcoded configuration values (use environment variables).
+- Copy-paste programming without abstracting reusable pieces.
+- Ignoring edge cases or wrapping blocks in empty `try...catch` blocks.
