@@ -14,10 +14,10 @@
       "source": "./",
       "description": "Universal core standards for projects to enforce philosophies, structure, naming, tooling, and global anti-patterns.",
       "version": "0.1.0",
-      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "repository": "https://github.com/MayR-Labs/skills.git",
       "license": "MIT",
       "author": {
-        "name": "YoungMayor",
+        "name": "Aghogho Meyoron",
         "email": "youngmayor.dev@gmail.com"
       },
       "keywords": [
@@ -37,10 +37,10 @@
       "source": "./",
       "description": "High-level behavioral concepts and prompting styles for AI agents, including eco-mode for token efficiency.",
       "version": "0.1.0",
-      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "repository": "https://github.com/MayR-Labs/skills.git",
       "license": "MIT",
       "author": {
-        "name": "YoungMayor",
+        "name": "Aghogho Meyoron",
         "email": "youngmayor.dev@gmail.com"
       },
       "keywords": [
@@ -60,10 +60,10 @@
       "source": "./",
       "description": "Strict, senior-level code standards and architectural conventions for various programming languages (JavaScript, TypeScript, PHP, etc.).",
       "version": "0.1.0",
-      "repository": "https://github.com/YoungMayor/code-doctrine.git",
+      "repository": "https://github.com/MayR-Labs/skills.git",
       "license": "MIT",
       "author": {
-        "name": "YoungMayor",
+        "name": "Aghogho Meyoron",
         "email": "youngmayor.dev@gmail.com"
       },
       "keywords": [

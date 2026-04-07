@@ -1,5 +1,5 @@
 ---
-name: youngmayor-eco-mode
+name: mayrlabs-eco-mode
 description: Instructs the agent to prioritize absolute token efficiency and minimal conversational overhead. This skill should be used when the user requests "Eco Mode" or explicitly asks for concise, slim responses without workflow explanations.
 ---
 

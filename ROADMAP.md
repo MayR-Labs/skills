@@ -1,6 +1,6 @@
 # Code Doctrine Skills Roadmap
 
-This document outlines the structured phases for delivering the comprehensive `@youngmayor/skills` library.
+This document outlines the structured phases for delivering the comprehensive `@mayrlabs/skills` library.
 
 ## Phase 1: Core Setup & Fundamentals (In Progress)
 

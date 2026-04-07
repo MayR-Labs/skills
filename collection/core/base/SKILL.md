@@ -1,5 +1,5 @@
 ---
-name: youngmayor-base
+name: mayrlabs-base
 description: Universal core standards for projects. This skill should be used on every project to enforce philosophies, structure, naming, tooling, and global anti-patterns regardless of language.
 ---
 

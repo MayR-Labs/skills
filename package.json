@@ -1,11 +1,10 @@
 {
-  "name": "@youngmayor/skills",
+  "name": "@mayrlabs/skills",
   "version": "0.1.0",
   "description": "A comprehensive, modular collection of senior-level agent skills for scaffolding code and enforcing architectural standards.",
   "scripts": {
     "format": "biome format --write .",
-    "lint": "biome check .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "biome check ."
   },
   "keywords": [
     "skills",
@@ -20,13 +19,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YoungMayor/code-doctrine.git"
+    "url": "https://github.com/MayR-Labs/skills.git"
   },
-  "homepage": "https://github.com/YoungMayor/code-doctrine.git",
+  "homepage": "https://github.com/MayR-Labs/skills.git",
   "author": {
     "email": "youngmayor.dev@gmail.com",
     "name": "Aghogho Meyoron",
-    "url": "https://aghogho.mayrlabs.com"
+    "url": "https://mayrlabs.com"
   },
   "license": "MIT",
   "devDependencies": {
