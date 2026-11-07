@@ -7,4 +7,3 @@ Thumbs.db
 *.log
 yarn.lock
 pnpm-lock.yaml
-config.bat
